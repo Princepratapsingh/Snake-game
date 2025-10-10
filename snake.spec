@@ -5,7 +5,7 @@ a = Analysis(
     ['snake.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('eat.mp3', '.'), ('gameover.mp3', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['game_icon.ico'],
+    icon=['snake.ico'],
 )
